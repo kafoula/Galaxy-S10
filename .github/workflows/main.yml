@@ -28,7 +28,7 @@ jobs:
     - name: Kernel Build
       run: echo 8 | ./ts-build-clang-12.sh
     - name: Upload Kernel Zip
-      uses: actions/upload-artifact@v2د4
+      uses: actions/upload-artifact@v4
       with:
         name: ThunderStormsKernel
         path: ./builds/*.zip
