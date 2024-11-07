@@ -28,7 +28,7 @@ jobs:
     - name: Kernel Build
       run: echo 11 | ./ts-build-arter97.sh
     - name: Upload Kernel Zip
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: ThunderStormsKernel
         path: ./builds/*.zip
